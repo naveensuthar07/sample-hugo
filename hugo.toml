@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Life Documentation'
+highlightWrap = true
+relativeURLs = true
+landingPageName = "<i class='fas fa-home'></i> Home"
+disableLandingPageButton = false
+theme = 'relearn'
+[params]
+  themeVariant = [ "white"]
+  themeVariantAuto = [ "learn", "neon" ]
+
+[outputs]
+home = [ "HTML", "RSS", "SEARCH","PRINT","SEARCHPAGE"]
+section = ["HTML", "RSS", "PRINT"]
+page = ["HTML", "RSS", "PRINT"]
